@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Medora.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Medora.Application\Medora.Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Anthropic" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Hybrid" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Seed data + knowledge base shipped inside the assembly (no file-system dependency in containers). -->
+    <EmbeddedResource Include="Persistence\Seed\*.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Medora.UnitTests" />
+    <InternalsVisibleTo Include="Medora.Api" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,105 @@
+{
+  "source": "Medora demo formulary v1 (illustrative summary for software demonstration; verify against the current product SmPC/label and local guidelines before clinical use)",
+  "monographs": [
+    { "generic": "paracetamol", "title": "Paracetamol (acetaminophen)", "sections": {
+      "Indications & dosing": "Mild to moderate pain and fever. Adults and children 12 years and over: 500 mg to 1 g every 4 to 6 hours, maximum 4 g in 24 hours. Consider a maximum of 3 g per day in adults under 50 kg, with chronic alcohol use, malnutrition or hepatic impairment. Children: dose by weight (about 15 mg/kg per dose) using the product's measuring device.",
+      "Contraindications & cautions": "Contraindicated in severe hepatic impairment. Use with caution in chronic alcohol use, glutathione depletion and chronic malnutrition. Overdose can cause delayed, potentially fatal hepatotoxicity even when the patient feels well; any suspected overdose needs urgent assessment.",
+      "Interactions": "Regular use of more than about 2 g per day for several days may increase the INR in patients taking warfarin; occasional doses are generally acceptable. Avoid combining with other paracetamol-containing products (cold and flu remedies) to prevent accidental overdose.",
+      "Counselling": "Check the patient is not taking another product that contains paracetamol. Do not exceed the stated maximum daily dose. Seek medical advice if pain lasts more than 3 days or fever more than 3 days. Paracetamol is generally the preferred analgesic in pregnancy and for patients on anticoagulants." } },
+    { "generic": "ibuprofen", "title": "Ibuprofen", "sections": {
+      "Indications & dosing": "Pain, inflammation and fever. Adults: 200 to 400 mg every 4 to 6 hours with food; maximum 1200 mg per day for self-care (up to 2400 mg per day under medical supervision). Use the lowest effective dose for the shortest time.",
+      "Contraindications & cautions": "Avoid in active or previous peptic ulcer or GI bleeding, severe heart failure, severe renal impairment, and the third trimester of pregnancy. Caution in asthma (may cause bronchospasm in NSAID-sensitive patients), hypertension, cardiovascular disease, renal impairment and in older adults.",
+      "Interactions": "Anticoagulants (warfarin) and SSRIs increase the risk of GI bleeding. ACE inhibitors and ARBs: reduced antihypertensive effect and risk of acute kidney injury, especially with a diuretic. May reduce the antiplatelet effect of low-dose aspirin if taken before it. Avoid combining with other NSAIDs.",
+      "Counselling": "Take with or after food. Stop and seek advice for black stools, vomiting blood or stomach pain. Do not use with other NSAIDs. Patients on blood pressure medicines, anticoagulants or with kidney problems should ask the pharmacist before use." } },
+    { "generic": "aspirin", "title": "Aspirin (acetylsalicylic acid)", "sections": {
+      "Indications & dosing": "Analgesic doses: 300 to 900 mg every 4 to 6 hours, maximum 4 g per day. Antiplatelet (secondary prevention): 75 to 100 mg once daily, only when recommended by a prescriber.",
+      "Contraindications & cautions": "Do not give to children under 16 because of the risk of Reye's syndrome. Avoid in active peptic ulcer, bleeding disorders, and severe hepatic or renal impairment. Caution in asthma and in the third trimester of pregnancy.",
+      "Interactions": "Warfarin and other anticoagulants: markedly increased bleeding risk. SSRIs: increased risk of GI bleeding. Ibuprofen may interfere with the antiplatelet effect of low-dose aspirin. Clopidogrel: additive bleeding risk (dual antiplatelet therapy is sometimes intended - check with the prescriber).",
+      "Counselling": "Take with food. Patients already on low-dose aspirin or an anticoagulant should not take extra aspirin for pain; paracetamol is usually preferred. Report unusual bruising or black stools." } },
+    { "generic": "naproxen", "title": "Naproxen", "sections": {
+      "Indications & dosing": "Pain and inflammation. Self-care: 220 mg every 8 to 12 hours, maximum 660 mg in 24 hours, for up to 10 days. Prescription regimens for arthritis use 250 to 500 mg twice daily.",
+      "Contraindications & cautions": "As for other NSAIDs: avoid with history of GI bleeding or ulceration, severe heart failure, severe renal impairment and late pregnancy. Higher cardiovascular and GI risk with long-term use.",
+      "Interactions": "Warfarin: increased bleeding risk; avoid. ACE inhibitors: reduced antihypertensive effect and risk of renal impairment. SSRIs and corticosteroids: increased GI bleeding risk. Lithium and methotrexate levels may rise.",
+      "Counselling": "Take with food and a full glass of water. Do not combine with ibuprofen or aspirin for pain. Stop and seek help for signs of GI bleeding." } },
+    { "generic": "tramadol", "title": "Tramadol", "sections": {
+      "Indications & dosing": "Moderate to severe pain. Adults: 50 to 100 mg every 4 to 6 hours, maximum 400 mg per day; lower maximum in older adults and renal or hepatic impairment. Controlled medicine in many jurisdictions: check prescription requirements and quantities.",
+      "Contraindications & cautions": "Avoid in uncontrolled epilepsy, acute intoxication with alcohol or other CNS depressants, and with MAO inhibitors. Risk of dependence, respiratory depression and seizures (especially at high doses).",
+      "Interactions": "SSRIs (e.g. sertraline), SNRIs and other serotonergic drugs: risk of serotonin syndrome and lowered seizure threshold - a major interaction that needs prescriber confirmation and patient monitoring. CNS depressants (benzodiazepines, alcohol): additive sedation and respiratory depression. CYP2D6 inhibitors alter effect.",
+      "Counselling": "May cause drowsiness and dizziness: do not drive if affected, avoid alcohol. Report agitation, tremor, fever, sweating or confusion urgently (possible serotonin syndrome). Do not stop suddenly after long-term use." } },
+    { "generic": "warfarin", "title": "Warfarin", "sections": {
+      "Indications & dosing": "Oral anticoagulant for atrial fibrillation, venous thromboembolism and mechanical heart valves. Dose is individualised to a target INR (commonly 2.0 to 3.0) and taken at the same time each day. Tablet strength and colour must match the patient's dosing record.",
+      "Contraindications & cautions": "Contraindicated in pregnancy (except some valve cases under specialist care), active bleeding and recent major surgery. Many foods, illness and alcohol change the INR.",
+      "Interactions": "Major interactions: NSAIDs (ibuprofen, naproxen) and aspirin increase bleeding risk - avoid unless prescribed. Clarithromycin and ciprofloxacin can raise the INR markedly; extra INR monitoring is needed during and after the course. Regular paracetamol above about 2 g daily may raise the INR. Large changes in vitamin K intake alter the effect.",
+      "Counselling": "Keep a record of INR results and doses. Use paracetamol rather than NSAIDs for pain. Tell every prescriber and pharmacist about warfarin. Seek help for unusual bleeding, black stools, blood in urine or severe headache." } },
+    { "generic": "clopidogrel", "title": "Clopidogrel", "sections": {
+      "Indications & dosing": "Antiplatelet for prevention of atherothrombotic events after MI, stroke or with peripheral arterial disease, and with aspirin after acute coronary syndrome or stenting. Usual dose 75 mg once daily.",
+      "Contraindications & cautions": "Avoid in active bleeding and severe hepatic impairment. Stop before elective surgery only on specialist advice. Reduced effect in CYP2C19 poor metabolisers.",
+      "Interactions": "Omeprazole and esomeprazole inhibit CYP2C19 and reduce clopidogrel's activation; if a PPI is needed, pantoprazole is preferred. Aspirin, NSAIDs, anticoagulants and SSRIs increase bleeding risk.",
+      "Counselling": "Do not stop without talking to the prescriber, especially after a stent. Report unusual bleeding or bruising. Check with the pharmacist before buying heartburn remedies or painkillers." } },
+    { "generic": "atorvastatin", "title": "Atorvastatin", "sections": {
+      "Indications & dosing": "Primary and secondary prevention of cardiovascular disease and hypercholesterolaemia. 10 to 80 mg once daily, at any time of day.",
+      "Contraindications & cautions": "Contraindicated in active liver disease and pregnancy or breastfeeding. Risk of myopathy is higher with high doses, hypothyroidism, renal impairment and older age.",
+      "Interactions": "Clarithromycin and other strong CYP3A4 inhibitors raise atorvastatin levels and myopathy risk; limit the dose (e.g. 20 mg) or pause atorvastatin during a short course. Large amounts of grapefruit juice increase levels.",
+      "Counselling": "Report unexplained muscle pain, tenderness or weakness promptly. Keep taking it even when cholesterol improves. Avoid large quantities of grapefruit juice." } },
+    { "generic": "simvastatin", "title": "Simvastatin", "sections": {
+      "Indications & dosing": "Hypercholesterolaemia and cardiovascular prevention. 10 to 40 mg once daily in the evening; the 80 mg dose is restricted because of myopathy risk.",
+      "Contraindications & cautions": "Contraindicated with strong CYP3A4 inhibitors, in active liver disease and in pregnancy. Myopathy and rhabdomyolysis risk is dose-related.",
+      "Interactions": "Clarithromycin (and other strong CYP3A4 inhibitors such as itraconazole): CONTRAINDICATED - risk of rhabdomyolysis; simvastatin should be suspended for the duration of the antibiotic course. Amlodipine: limit simvastatin to 20 mg daily. Avoid grapefruit juice.",
+      "Counselling": "Take in the evening. Report muscle pain, weakness or dark urine immediately. Do not drink grapefruit juice." } },
+    { "generic": "lisinopril", "title": "Lisinopril", "sections": {
+      "Indications & dosing": "Hypertension: usually 10 to 20 mg once daily (maximum 80 mg). Heart failure and post-MI regimens start low and titrate. Check renal function and potassium after starting and after dose increases.",
+      "Contraindications & cautions": "Contraindicated in pregnancy, history of ACE-inhibitor angioedema, and bilateral renal artery stenosis. Caution in renal impairment and with dehydration (diarrhoea, vomiting).",
+      "Interactions": "NSAIDs (ibuprofen, naproxen) reduce the antihypertensive effect and increase the risk of acute kidney injury, especially with a diuretic (the 'triple whammy'). Potassium supplements and potassium-sparing diuretics can cause hyperkalaemia. Decongestants such as pseudoephedrine may raise blood pressure.",
+      "Counselling": "May cause a dry cough; report facial or tongue swelling immediately. Stand up slowly at first. During vomiting or diarrhoea illness, seek advice about temporarily stopping ('sick day rules'). Avoid NSAID painkillers unless advised." } },
+    { "generic": "amlodipine", "title": "Amlodipine", "sections": {
+      "Indications & dosing": "Hypertension and angina: 5 mg once daily, increased to 10 mg if needed.",
+      "Contraindications & cautions": "Avoid in cardiogenic shock and significant aortic stenosis. Ankle swelling is common and dose-related.",
+      "Interactions": "Simvastatin: limit simvastatin to 20 mg daily due to raised statin levels. Strong CYP3A4 inhibitors (e.g. clarithromycin) may increase amlodipine levels and hypotension.",
+      "Counselling": "Ankle swelling, flushing and headache are common at the start. Report chest pain that worsens. Keep taking regularly." } },
+    { "generic": "metformin", "title": "Metformin", "sections": {
+      "Indications & dosing": "Type 2 diabetes. Start 500 mg once or twice daily with meals and increase gradually to reduce GI effects; usual maximum 2 g per day. Review dose when eGFR is below 45 and stop below 30 ml/min/1.73m2.",
+      "Contraindications & cautions": "Avoid in severe renal impairment, acute conditions that risk tissue hypoxia, and dehydration. Temporarily stop around iodinated contrast procedures and during acute illness with vomiting or diarrhoea.",
+      "Interactions": "Fluoroquinolones such as ciprofloxacin can cause dysglycaemia (both hypo- and hyperglycaemia) in people with diabetes; advise extra glucose monitoring. Alcohol increases the risk of lactic acidosis.",
+      "Counselling": "Take with or after meals. GI upset usually settles over a few weeks. Follow sick-day rules: pause during vomiting, diarrhoea or dehydration and restart when eating and drinking normally." } },
+    { "generic": "amoxicillin", "title": "Amoxicillin", "sections": {
+      "Indications & dosing": "Susceptible bacterial infections (respiratory, ear, urinary, dental). Adults: commonly 500 mg three times daily for 5 to 7 days; follow the prescription.",
+      "Contraindications & cautions": "Contraindicated in penicillin allergy - always check the patient's declared allergies; cross-reactivity with cephalosporins is low but possible. Rash is common in glandular fever.",
+      "Interactions": "May increase the INR in patients on warfarin; monitor if the course is long. Methotrexate clearance may be reduced.",
+      "Counselling": "Complete the course even if feeling better. Report rash, swelling or breathing difficulty immediately (possible allergy). Diarrhoea is common; seek advice if severe or bloody." } },
+    { "generic": "clarithromycin", "title": "Clarithromycin", "sections": {
+      "Indications & dosing": "Respiratory tract, skin and soft-tissue infections; H. pylori eradication regimens. Adults: 250 to 500 mg twice daily for 7 to 14 days.",
+      "Contraindications & cautions": "Contraindicated with simvastatin, lovastatin, ergot derivatives and some other CYP3A4 substrates. Caution in QT prolongation and hepatic or renal impairment.",
+      "Interactions": "Strong CYP3A4 inhibitor. Simvastatin: contraindicated - suspend simvastatin during the course. Atorvastatin: use a low dose or pause. Warfarin: INR may rise significantly - monitor. Calcium-channel blockers: risk of hypotension.",
+      "Counselling": "Take every 12 hours and complete the course. May cause taste disturbance and stomach upset. Tell the pharmacist about all other medicines, especially cholesterol medicines and blood thinners." } },
+    { "generic": "ciprofloxacin", "title": "Ciprofloxacin", "sections": {
+      "Indications & dosing": "Complicated urinary tract and other infections where a fluoroquinolone is appropriate. Commonly 250 to 500 mg twice daily.",
+      "Contraindications & cautions": "Fluoroquinolones carry warnings for tendinopathy and tendon rupture (higher risk over 60 and with corticosteroids), aortic aneurysm, peripheral neuropathy and CNS effects. Avoid in children and in people with prior fluoroquinolone reactions.",
+      "Interactions": "Warfarin: INR may increase - monitor. Antidiabetic drugs (metformin, sulfonylureas): dysglycaemia. Antacids, iron, calcium and zinc reduce absorption - separate by at least 2 hours before or 6 hours after. Theophylline levels rise.",
+      "Counselling": "Separate from iron, calcium, antacids and dairy-only drinks. Stop and seek advice for tendon pain or swelling. Avoid strong sunlight. Report numbness or tingling." } },
+    { "generic": "sertraline", "title": "Sertraline", "sections": {
+      "Indications & dosing": "Depression, anxiety disorders, OCD and PTSD. Adults: start 50 mg once daily; increase in 50 mg steps at intervals of at least a week, maximum 200 mg per day.",
+      "Contraindications & cautions": "Avoid with MAO inhibitors and pimozide. Caution in bleeding disorders, epilepsy and with other serotonergic drugs. Young adults need monitoring for worsening mood early in treatment.",
+      "Interactions": "Tramadol and other serotonergic drugs (triptans, St John's wort): serotonin syndrome risk. NSAIDs, aspirin and anticoagulants: increased bleeding risk, especially GI bleeding - consider gastroprotection or paracetamol instead.",
+      "Counselling": "Benefits take 2 to 4 weeks. Early side effects (nausea, sleep changes) usually ease. Do not stop suddenly. Avoid St John's wort. Use paracetamol rather than ibuprofen for pain where possible." } },
+    { "generic": "omeprazole", "title": "Omeprazole", "sections": {
+      "Indications & dosing": "Heartburn and reflux: self-care 20 mg once daily before breakfast for up to 14 days. Prescription doses for ulcers and gastroprotection vary (20 to 40 mg daily).",
+      "Contraindications & cautions": "Refer rather than self-treat in patients with alarm symptoms: difficulty swallowing, unintended weight loss, vomiting blood, black stools, or new symptoms over 55. Long-term use is linked to low magnesium and B12 and C. difficile risk.",
+      "Interactions": "Clopidogrel: omeprazole reduces its activation via CYP2C19 - pantoprazole is preferred. May reduce absorption of some drugs that need stomach acid (e.g. ketoconazole, some iron preparations).",
+      "Counselling": "Take before breakfast. If symptoms persist after 14 days or alarm symptoms appear, see a doctor. Patients on clopidogrel should ask the pharmacist before buying omeprazole." } },
+    { "generic": "cetirizine", "title": "Cetirizine", "sections": {
+      "Indications & dosing": "Allergic rhinitis and urticaria. Adults and children over 12: 10 mg once daily. Halve the dose in moderate renal impairment.",
+      "Contraindications & cautions": "Avoid in severe renal impairment without dose adjustment. Can cause drowsiness in some people despite being 'non-sedating'.",
+      "Interactions": "Alcohol and other CNS depressants may add to drowsiness. No clinically important interactions with the medicines in this formulary.",
+      "Counselling": "Take once daily. If it makes you drowsy, avoid driving and alcohol. Seek advice if symptoms are not controlled after a week." } },
+    { "generic": "pseudoephedrine", "title": "Pseudoephedrine", "sections": {
+      "Indications & dosing": "Nasal and sinus congestion. Adults: 60 mg every 4 to 6 hours, maximum 240 mg per day, for up to 7 days. Sales are restricted and quantity-limited in many jurisdictions.",
+      "Contraindications & cautions": "Avoid in severe or uncontrolled hypertension, severe coronary disease, hyperthyroidism, closed-angle glaucoma, and with MAO inhibitors (and within 14 days of stopping one). Caution in diabetes and prostatic enlargement.",
+      "Interactions": "Antihypertensives (ACE inhibitors, beta-blockers, calcium-channel blockers): may raise blood pressure and reduce their effect. MAO inhibitors: risk of hypertensive crisis - contraindicated.",
+      "Counselling": "Not for people with high blood pressure or heart disease unless a doctor agrees. May cause insomnia - avoid late doses. Do not combine with other decongestants." } },
+    { "generic": "salbutamol", "title": "Salbutamol (albuterol) inhaler", "sections": {
+      "Indications & dosing": "Relief of bronchospasm in asthma and COPD. 100 to 200 mcg (1 to 2 puffs) as required, up to 4 times a day. Needing it 3 or more times a week suggests poorly controlled asthma.",
+      "Contraindications & cautions": "Caution in hyperthyroidism, cardiovascular disease and diabetes (high doses can raise glucose and lower potassium).",
+      "Interactions": "Non-selective beta-blockers can block its effect and cause bronchospasm. High doses with corticosteroids or diuretics increase the risk of hypokalaemia.",
+      "Counselling": "Check inhaler technique and consider a spacer. Seek urgent help if the reliever is needed more than every 4 hours or does not help. Overuse means asthma control should be reviewed - refer to the prescriber." } }
+  ]
+}

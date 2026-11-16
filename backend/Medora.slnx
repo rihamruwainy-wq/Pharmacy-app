@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Medora.Api/Medora.Api.csproj" />
+    <Project Path="src/Medora.Application/Medora.Application.csproj" />
+    <Project Path="src/Medora.Domain/Medora.Domain.csproj" />
+    <Project Path="src/Medora.Infrastructure/Medora.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Medora.UnitTests/Medora.UnitTests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,21 @@
+<Project>
+  <!-- Applies to every project: one place for language, quality and performance settings. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <!-- Must stay false: Microsoft.Data.SqlClient refuses to open connections in invariant mode. -->
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+    <!-- CA1515 conflicts with layered libraries; CA1848/CA1873 handled via LoggerMessage where hot;
+         CA1000 forbids Result<T>.Ok/Fail factories; CA2225 wants named operator twins;
+         CA1819 (array properties) is fine for EF-mapped rowversion/value arrays. -->
+    <NoWarn>$(NoWarn);CA1515;CA1848;CA1873;CA2007;CA1062;CA1716;CA1720;CA1000;CA2225;CA1819;CA1002;CA1031;CA1305;CA1307;CA1309;CA1310;CA1311;CA1304;CA1862;CA1308</NoWarn>
+  </PropertyGroup>
+</Project>

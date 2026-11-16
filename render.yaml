@@ -1,0 +1,49 @@
+# Render Blueprint - FREE deployment of Medora:
+#   medora-api  : Render free web service (Docker)  + Azure SQL free database
+#   medora-app  : the Expo app exported as a website (Render free static site) - works on any phone browser
+# In Render: New -> Blueprint -> pick this GitHub repo. `sync: false` values are entered once in the dashboard.
+services:
+  - type: web
+    name: medora-api
+    runtime: docker
+    plan: free
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health/live
+    envVars:
+      - key: PORT
+        value: "8080"
+      - key: DOTNET_gcServer           # workstation GC: fits the free 512 MB instance
+        value: "0"
+      - key: ConnectionStrings__Medora    # Azure SQL free database (format in DEPLOY-FREE.md)
+        sync: false
+      - key: Database__MigrateOnStartup
+        value: "true"
+      - key: Database__SeedDemoData
+        value: "true"                  # demo accounts/orders for a showcase; "false" for real customers
+      - key: Jwt__SigningKey
+        generateValue: true
+      - key: Ai__Provider
+        value: openai
+      - key: Ai__BaseUrl
+        value: https://api.groq.com/openai/v1
+      - key: Ai__Model
+        value: openai/gpt-oss-120b
+      - key: Ai__ApiKey                # your Groq key (free tier)
+        sync: false
+      - key: Cors__Origins__0          # the web app's address, e.g. https://medora-app.onrender.com
+        sync: false
+
+  - type: web
+    name: medora-app
+    runtime: static
+    rootDir: mobile
+    buildCommand: npm ci && npx expo export --platform web
+    staticPublishPath: dist
+    routes:
+      - type: rewrite                  # single-page app: every path serves index.html
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: EXPO_PUBLIC_API_URL       # e.g. https://medora-api.onrender.com (baked in at build time)
+        sync: false

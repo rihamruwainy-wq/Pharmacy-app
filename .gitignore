@@ -1,0 +1,17 @@
+# Secrets
+.env.production
+.env*.local
+
+# .NET build output
+backend/**/bin/
+backend/**/obj/
+backend/**/TestResults/
+*.user
+.vs/
+
+# Mobile (see also mobile/.gitignore)
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+
+.DS_Store

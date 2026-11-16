@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Medora",
+    "slug": "my-pharmacy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "medora",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.rihamruwainysteam.mypharmacy"
+    },
+    "android": {
+      "package": "com.rihamruwainysteam.mypharmacy",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F3EA",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#1F5A47",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      "expo-secure-store",
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": false,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c47a9f3e-0e27-4b99-ab8c-da4f86daa500"
+      }
+    },
+    "owner": "rihamruwainys-team",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c47a9f3e-0e27-4b99-ab8c-da4f86daa500"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+# Medora API + SQL Server on one machine (a VPS, or locally to rehearse production).
+#   1. cp .env.production.example .env.production   and fill in every value
+#   2. docker compose --env-file .env.production up -d --build
+# The mobile app talks to this API directly, so expose it ONLY through HTTPS
+# (Caddy / Nginx / a cloud load balancer terminating TLS in front of port 8080).
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: ${SQL_SA_PASSWORD:?set SQL_SA_PASSWORD}
+      MSSQL_PID: Express
+    volumes:
+      - sqldata:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      retries: 12
+    restart: unless-stopped
+
+  api:
+    build: ./backend
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    environment:
+      ConnectionStrings__Medora: "Server=sqlserver;Database=Medora;User Id=sa;Password=${SQL_SA_PASSWORD};TrustServerCertificate=True;MultipleActiveResultSets=False"
+      Database__MigrateOnStartup: ${MIGRATE_ON_STARTUP:-true}
+      Database__SeedDemoData: ${SEED_DEMO_DATA:-false}
+      Jwt__SigningKey: ${JWT_SIGNING_KEY:?set JWT_SIGNING_KEY}
+      Ai__Provider: ${AI_PROVIDER:-none}
+      Ai__BaseUrl: ${AI_BASE_URL:-}
+      Ai__Model: ${AI_MODEL:-}
+      Ai__ApiKey: ${AI_API_KEY:-}
+      Claude__ApiKey: ${ANTHROPIC_API_KEY:-}
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+volumes:
+  sqldata:
