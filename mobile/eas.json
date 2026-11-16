@@ -19,14 +19,14 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://medora-api.onrender.com"
+        "EXPO_PUBLIC_API_URL": "https://mypharmacy.runasp.net"
       }
     },
     "production": {
       "autoIncrement": true,
       "channel": "production",
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://medora-api.onrender.com"
+        "EXPO_PUBLIC_API_URL": "https://mypharmacy.runasp.net"
       }
     }
   },
