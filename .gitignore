@@ -15,3 +15,7 @@ mobile/.expo/
 mobile/dist/
 
 .DS_Store
+
+# Production settings with secrets (uploaded to the host by hand, never committed)
+appsettings.Production.json
+deploy/

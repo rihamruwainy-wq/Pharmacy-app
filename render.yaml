@@ -7,6 +7,7 @@ services:
     name: medora-api
     runtime: docker
     plan: free
+    region: frankfurt                # closest free region to Egypt; keep the Azure SQL server in Germany West Central
     rootDir: backend
     dockerfilePath: ./Dockerfile
     healthCheckPath: /health/live

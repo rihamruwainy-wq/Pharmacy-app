@@ -26,6 +26,12 @@ builder.WebHost.ConfigureKestrel(k =>
     k.AddServerHeader = false;
     k.Limits.MaxRequestBodySize = 64 * 1024; // JSON API: prescriptions carry an image REFERENCE, never bytes
 });
+
+// Windows/IIS hosting (e.g. MonsterASP.NET): the slim builder leaves IIS out. Both calls are no-ops
+// outside IIS (Docker/Linux keep using Kestrel), and the body limit mirrors Kestrel's under IIS.
+builder.WebHost.UseIIS();
+builder.WebHost.UseIISIntegration();
+builder.Services.Configure<IISServerOptions>(o => o.MaxRequestBodySize = 64 * 1024);
 builder.Services.ConfigureHttpJsonOptions(o =>
 {
     // Wire contract: unset optional fields are omitted (the app's Zod schemas use .optional()).
